@@ -1,0 +1,26 @@
+.add-form {
+	margin-bottom: 16px;
+}
+
+button {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 8px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}

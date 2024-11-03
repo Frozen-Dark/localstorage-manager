@@ -1,0 +1,53 @@
+.storage-list {
+	max-height: 400px;
+	overflow-y: auto;
+	margin-bottom: 16px;
+	border: 1px solid #ddd;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.storage-item {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 12px;
+	padding: 8px;
+	gap: 8px;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	position: relative;
+}
+
+.storage-item span.key {
+	font-weight: bold;
+	max-width: 90%;
+	margin-bottom: 4px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.storage-item span.value {
+	color: #555;
+	max-width: 90%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.delete-button {
+	left: calc(100% - 60px);
+	position: relative;
+	width: 60px;
+
+	background-color: #f44336;
+	color: white;
+	border: none;
+	padding: 4px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.delete-button:hover {
+	background-color: #d32f2f;
+}

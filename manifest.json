@@ -1,0 +1,17 @@
+{
+   "manifest_version": 3,
+   "name": "Local Storage Manager",
+   "author": "Sergey F",
+   "version": "1.0",
+   "description": "Управление значениями локального хранилища через визуальный интерфейс",
+   "permissions": ["storage", "scripting"],
+   "host_permissions": ["<all_urls>"],
+   "action": {
+      "default_popup": "localstorage-manager/build/index.html",
+      "default_icon": {
+         "16": "localstorage-manager/build/icons/bg_16.png",
+         "24": "localstorage-manager/build/icons/bg_24.png",
+         "32": "localstorage-manager/build/icons/bg_32.png"
+      }
+   }
+}

@@ -1,0 +1,14 @@
+.toggle-add-form {
+	background-color: #2196F3;
+	color: white;
+	padding: 8px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 16px;
+	width: 100%;
+}
+
+.toggle-add-form:hover {
+	background-color: #1976D2;
+}

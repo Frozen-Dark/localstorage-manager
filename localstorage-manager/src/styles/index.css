@@ -3,10 +3,37 @@ body {
 	margin: 0;
 
 	height: 600px;
+	width: 800px;
+
+	overflow: hidden;
 
 	font-family: "Roboto Thin", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+	--bg-color-card: #dfdfdf;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--bg-color-card);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }
 
 #root {

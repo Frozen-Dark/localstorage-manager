@@ -1,27 +1,29 @@
 .storage-list {
-	max-height: 400px;
+	height: 100%;
+	width: 100%;
 	overflow-y: auto;
-	margin-bottom: 16px;
-	border: 1px solid #ddd;
+	border: 1px solid var(--bg-color-card);
+	border-radius: 10px;
 	padding: 8px;
-	border-radius: 5px;
 }
 
 .storage-item {
-	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+
 	margin-bottom: 12px;
+
+	background-color: var(--bg-color-card);
+	border-radius: 5px;
 	padding: 8px;
 	gap: 8px;
-	background-color: #f9f9f9;
-	border-radius: 5px;
-	position: relative;
 }
 
 .storage-item span.key {
 	font-weight: bold;
-	max-width: 90%;
+	width: 100%;
 	margin-bottom: 4px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -29,7 +31,7 @@
 
 .storage-item span.value {
 	color: #555;
-	max-width: 90%;
+	width: 100%;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
